@@ -1,0 +1,36 @@
+.deals {
+    width: 100vw;
+    float: left;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.deal_text {
+    margin: 2rem;
+    font-family: "Teko", sans-serif;
+    font-size: 2rem;
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@media screen and (min-width: 1080px) {
+    .deals {
+        width: 50vw;
+        float: left;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        margin-right: 2rem;
+    }
+
+    .deal_text {
+        margin: 2rem;
+        font-family: "Teko", sans-serif;
+        font-size: 2rem;
+        color: whitesmoke;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}

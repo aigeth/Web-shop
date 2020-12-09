@@ -1,0 +1,49 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    position: fixed;
+    background: url(../resources/background.jpg);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -10;
+}
+
+.loginform {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    width: 100vw;
+    height: auto;
+    background: rgba(0, 0, 0, 0.747);
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10vh 1vw;
+}
+
+.input {
+    margin: 2px;
+    font-size: 4rem;
+}
+
+.button {
+    font-size: 4rem;
+}
+
+@media screen and (min-width: 1080px) {
+    .input {
+        margin: 2px;
+        font-size: 1.5rem;
+    }
+
+    .button {
+        font-size: 1.5rem;
+    }
+}

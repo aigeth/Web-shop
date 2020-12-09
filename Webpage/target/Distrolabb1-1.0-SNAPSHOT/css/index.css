@@ -1,0 +1,37 @@
+*{
+    margin: 0.1rem;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url("../resources/background.jpg");
+    background-size: cover;
+    color: white;
+}
+
+.logindiv{
+    background: #000;
+    opacity: 85%;
+    padding: 2.5rem 2rem 2rem 2rem;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    border-radius: 0.5rem;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    transition: all 0.5s;
+    -webkit-box-shadow: inherit;
+    -moz-box-shadow: inherit;
+    box-shadow: inherit;
+}
+
+.logindiv:hover{
+    -webkit-box-shadow: 0px 0px 49px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 49px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 49px 0px rgba(0,0,0,0.75);
+}
+.button {
+    float: right;
+}
